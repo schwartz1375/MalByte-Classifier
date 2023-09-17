@@ -1,0 +1,19 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv
+.env/
+.DS_Store
+
+# Training Material
+benign_book/
+malware_book/
+
+# model and vectorizer
+malware_classification_model-byte-level.skops
+vectorizer-byte-level.skops
+
